@@ -1,0 +1,40 @@
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.project__image{
+  margin-top: 1em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 50px var(--clr-primary);
+}
+
+.project__description {
+  margin-top: 1em;
+}
+
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+}
+
+.project__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.project .link--icon {
+  margin-left: 0.5em;
+}
