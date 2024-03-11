@@ -15,7 +15,7 @@ const about = {
   resume: '/Coskun Emre Zevkirlioglu - CV.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/cezevkirlioglu/',
-    github: 'https://github.com',
+    github: 'https://github.com/CE-zevkirlioglu',
     twitter: 'https://x.com/emre_zevkir',
   },
   photoLink: `${process.env.PUBLIC_URL}/circlePhoto.png`,
